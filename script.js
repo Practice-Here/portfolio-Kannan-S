@@ -83,4 +83,55 @@ $(document).ready(function () {
     event.preventDefault();
   });
 
+  const img = document.querySelector('.about .about-content .left img');
+
+    if (img) { // Safety check: only run if the image exists on the page
+        img.addEventListener('mousemove', (e) => {
+            const { offsetWidth: width, offsetHeight: height } = img;
+            const { offsetX: mouseX, offsetY: mouseY } = e;
+
+            // Calculate rotation
+            const xAxis = (width / 2 - mouseX) / 20;
+            const yAxis = (height / 2 - mouseY) / 20;
+
+            img.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+        });
+
+        img.addEventListener('mouseleave', () => {
+            img.style.transform = `rotateY(0deg) rotateX(0deg)`;
+        });
+    }
+
+ // Journey Timeline Auto-play Script
+ $(document).ready(function () {
+    const radios = document.querySelectorAll('input[name="gallery-item"]');
+    if (radios.length > 0) {
+        let currentIndex = 2; // Starts at item-2 (2022-2023)
+        let autoPlayInterval;
+
+        function startAutoPlay() {
+            autoPlayInterval = setInterval(() => {
+                currentIndex = (currentIndex + 1) % radios.length;
+                radios[currentIndex].checked = true;
+            }, 3000); // Changes slide every 3 seconds
+        }
+
+        function stopAutoPlay() {
+            clearInterval(autoPlayInterval);
+        }
+
+        // Start the rotation initially
+        startAutoPlay();
+
+        // Allow user to click manually, which resets the timer
+        radios.forEach((radio, index) => {
+            radio.addEventListener('change', () => {
+                currentIndex = index;
+                stopAutoPlay();
+                startAutoPlay();
+            });
+        });
+    }
+ })
+
 });
