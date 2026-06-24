@@ -190,7 +190,7 @@ section .title::after {
 /* Home */
 .home {
     display: flex;
-    background: url("https://private-user-images.githubusercontent.com/138990724/612505063-2c9aeedd-91ca-4d42-b8e5-8dd993b0bf30.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODIzMTAwNzcsIm5iZiI6MTc4MjMwOTc3NywicGF0aCI6Ii8xMzg5OTA3MjQvNjEyNTA1MDYzLTJjOWFlZWRkLTkxY2EtNGQ0Mi1iOGU1LThkZDk5M2IwYmYzMC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNjI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDYyNFQxNDAyNTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04YjRiZGZiYmJjOTA4Yjk1OGNhNjhhYTU4M2IzNTFkNGU5ZWM1NTZmMDg1NzcxN2ZkYTIyODgwNTRjMTM5M2IzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZqcGVnIn0.O0IXWj64Lrz4n4ed_VcBKtRcLs8iVNrtC17QMxf9Y0I") no-repeat center;
+    background: url("Images/bg.jpg") no-repeat center;
     background-color:#1E222B;
     height: 100vh;
     min-height: 500px;
