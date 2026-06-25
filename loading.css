@@ -379,4 +379,10 @@ body {
         white-space: pre-wrap !important;
         word-break: break-word !important;
     }
+    .terminal-line.cmd-color.font-light,
+    .terminal-line.system-log.p3-r1,
+    .test-left {
+        font-size: 0.58rem !important;
+        letter-spacing: -0.2px !important;
+    }
 }
