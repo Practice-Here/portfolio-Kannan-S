@@ -326,17 +326,12 @@ body {
   .character-emoji { font-size: 1.8rem; }
 }
 
-/* =========================================
-   Isolated Mobile Layout Optimization
-   Targets ONLY the loading boxes/terminal view
-   ========================================= */
+/* Isolated Mobile Layout Optimization */
 @media (max-width: 500px) {
-    /* 1. Give the outer wrapper container small side margins so it never goes off-screen */
     .loading-overlay {
         padding: 12px !important;
     }
 
-    /* 2. Resize and constraint the app box boxes layout safely */
     .window-shell.box-status, 
     .window-shell.box-tester, 
     .window-shell.box-ide {
@@ -345,14 +340,11 @@ body {
         width: calc(100% - 24px) !important;
     }
 
-    /* 3. Scaled adjustments to ensure code lines fit inside the narrower terminal width */
     .ide-code-workspace, 
     .ide-embedded-terminal .term-scroller {
-        font-size: 0.72rem !important; /* Slightly smaller text strictly on mobile views */
-        padding: 12px !important;
+        font-size: 0.72rem !important; 
     }
 
-    /* 4. Ensure internal tab strip matches layout scale perfectly */
     .tab-pill {
         padding: 6px 8px !important;
         font-size: 0.68rem !important;
@@ -365,6 +357,9 @@ body {
     
     .avatar-img {
         width: 85px !important; 
+    }
+    .avatar-tester .avatar-img {
+        width: 75px !important; 
     }
     
     .speech-bubble {
