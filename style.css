@@ -928,11 +928,12 @@ footer span a:hover {
     }
 
     .skills .skills-content .left p {
-        text-align: justify;
+        text-align: justify !important;
         text-justify: inter-word;
         word-break: keep-all;
-        letter-spacing: -0.3px;
-        word-spacing: -0.5px;
+        font-size: 3.85vw;
+        letter-spacing: -0.1px;
+        word-spacing: -0.3px;
     }
 
     .skills-right {
@@ -971,11 +972,12 @@ footer span a:hover {
         margin-left: 0;
     }
     .skills .skills-content .left p {
-        text-align: justify;
+        text-align: justify !important;
         text-justify: inter-word;
         word-break: keep-all;
-        letter-spacing: -0.3px;
-        word-spacing: -0.5px;
+        font-size: 3.85vw;
+        letter-spacing: -0.1px;
+        word-spacing: -0.3px;
     }
     .skills .skills-content .left .text {
         text-align: left !important;
@@ -1012,11 +1014,12 @@ footer span a:hover {
         font-size: 19px;
     }
     .skills .skills-content .left p {
-        text-align: justify;
+        text-align: justify !important;
         text-justify: inter-word;
         word-break: keep-all;
-        letter-spacing: -0.3px;
-        word-spacing: -0.5px;
+        font-size: 3.85vw;
+        letter-spacing: -0.1px;
+        word-spacing: -0.3px;
     }
     .skills .skills-content .left .text {
         text-align: left !important;
