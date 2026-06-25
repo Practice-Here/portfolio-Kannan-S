@@ -640,7 +640,7 @@ section .title::after {
         overflow: hidden;
     }
     .cards li .inner-content {
-        width: 380px; 
+        width: 280px; 
         top: 70px;
         overflow: visible !important;
     }
@@ -658,7 +658,7 @@ section .title::after {
         transform-origin: top center;
     }
    .container-wrapper {
-        height: 320px;
+        height: 200px;
         overflow: hidden;
     }
     .cards li .inner-content {
