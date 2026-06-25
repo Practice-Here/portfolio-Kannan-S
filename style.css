@@ -641,7 +641,7 @@ section .title::after {
     }
     .cards li .inner-content {
         width: 360px; 
-        top: 60px;
+        top: 80px;
     }
     .cards li:not(:has(input:checked)) label {
         opacity: 0;
@@ -667,7 +667,7 @@ section .title::after {
     }
     .cards li .inner-content {
         width: 350px; 
-        top: 50px;
+        top: 70px;
     }
     .cards li .inner-content h2 {
         font-size: 1.8rem;
