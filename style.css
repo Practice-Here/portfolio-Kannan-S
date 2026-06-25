@@ -642,7 +642,6 @@ section .title::after {
     .cards li .inner-content {
         width: 280px; 
         top: 70px;
-        overflow: visible !important;
     }
 }
 
@@ -663,8 +662,7 @@ section .title::after {
     }
     .cards li .inner-content {
         width: 290px; /* Keeps text layout crisp inside narrow views */
-        top: 85px;
-        overflow: visible !important;
+        top: 85px;   
     }
     .cards li .inner-content {
         width: 360px; /* Maximizes text spread horizontally */
