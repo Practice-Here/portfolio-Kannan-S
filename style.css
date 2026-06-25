@@ -482,14 +482,14 @@ section .title::after {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    padding-top: 60px;
-    height: 380px; 
+    padding-top: 70px;
+    height: 420px; 
     overflow: hidden; 
 }
 
 .cards-container {
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     position: relative;
     --duration: 600ms;
     --label-color: #4a1c20;
@@ -514,10 +514,17 @@ section .title::after {
     pointer-events: none;
 }
 
+.cards li {
+    z-index: 1;
+}
+.cards li:has(input:checked) {
+    z-index: 5;
+}
+
 /* Outer Labels (Years on perimeter) */
 .cards li > label {
     position: absolute;
-    top: -50px;
+    top: -60px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -636,7 +643,7 @@ section .title::after {
         transform-origin: top center;
     }
     .container-wrapper {
-        height: 280px; 
+        height: 330px; 
     }
 }
 
@@ -652,7 +659,7 @@ section .title::after {
         transform-origin: top center;
     }
     .container-wrapper {
-        height: 220px;
+        height: 260px;
     }
 }
 
