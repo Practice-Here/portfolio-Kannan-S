@@ -379,4 +379,15 @@ body {
         white-space: pre-wrap !important;
         word-break: break-word !important;
     }
+    .terminal-line.cmd-color,
+    .terminal-line.system-log,
+    .test-left {
+        white-space: pre-wrap !important;
+        overflow: visible !important;
+        word-break: break-word !important;
+        font-size: 0.58rem !important;      
+        line-height: 1.4 !important;
+        letter-spacing: -0.1px !important;   
+        display: block !important;           
+    }
 }
