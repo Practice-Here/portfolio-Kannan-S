@@ -636,12 +636,13 @@ section .title::after {
         transform-origin: top center;
     }
     .container-wrapper {
-        height: 380px; 
+        height: 280px; 
         overflow: hidden;
     }
     .cards li .inner-content {
         width: 280px; 
         top: 70px;
+        overflow: visible !important;
     }
 }
 
@@ -657,16 +658,14 @@ section .title::after {
         transform-origin: top center;
     }
    .container-wrapper {
-        height: 200px;
+        height: 220px;
         overflow: hidden;
     }
     .cards li .inner-content {
-        width: 290px; /* Keeps text layout crisp inside narrow views */
-        top: 85px;   
+        width: 200px; /* Keeps text layout crisp inside narrow views */
     }
     .cards li .inner-content {
-        width: 360px; /* Maximizes text spread horizontally */
-        top: 65px; /* Centers text box inside the safe viewable window */
+        width: 250px; /* Maximizes text spread horizontally */
     }
     .cards li .inner-content h2 {
         font-size: 1.8rem;
