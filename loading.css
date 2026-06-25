@@ -213,7 +213,9 @@ body {
   pointer-events: auto;
   filter: drop-shadow(0 10px 10px rgba(0,0,0,0.3));
 }
-
+.avatar-tester .avatar-img {
+  width: 95px;
+}
 .speech-bubble {
   background-color: var(--text-primary-color);
   color: var(--bg-window-shell);
