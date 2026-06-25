@@ -624,6 +624,7 @@ section .title::after {
 .cards:has(li:nth-child(3)>input:checked) { --index: 2; }
 .cards:has(li:nth-child(4)>input:checked) { --index: 3; }
 .cards:has(li:nth-child(5)>input:checked) { --index: 4; }
+.cards:has(li:nth-child(6)>input:checked) { --index: 5; }
 
 /* Responsive adjustments for Perfect Alignment on ALL Devices */
 @media (max-width: 650px) {
