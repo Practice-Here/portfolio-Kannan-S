@@ -310,7 +310,11 @@ body {
 .terminal-line { white-space: nowrap; overflow: hidden; margin-bottom: 8px; }
 .cmd-color { color: var(--accent-cyan); }
 .success-color { color: var(--accent-green) !important; }
-
+.terminal-running {
+    white-space: pre-wrap !important;
+    word-break: break-all !important;
+    overflow-wrap: break-word !important;
+}
 
 /* 5. CROSS-DEVICE VIEWPORT COMPATIBILITY BREAKPOINTS */
 @media (max-width: 768px) {
@@ -369,4 +373,8 @@ body {
         font-size: 0.7rem !important;
         margin-bottom: 12px !important;
     }
+    .terminal-running {
+        font-size: 0.65rem !important;
+        line-height: 1.4 !important;
+     }
 }
