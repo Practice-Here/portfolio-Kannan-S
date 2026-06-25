@@ -262,6 +262,15 @@ body {
 
 .test-right { 
   margin-left: 20px; 
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+.passed-badge {
+    width: 16px; /* Matches normal desktop font scale */
+    height: 16px;
+    object-fit: contain;
+    background: transparent !important; /* Guarantees no background interference */
 }
 .phase-3 .p3-r2 { animation: revealMetricsGraph 0.1s step-end forwards; animation-delay: calc(var(--dur-p1) + var(--dur-p2) + 1.2s); }
 .test-left { color: #4ade80; }
@@ -384,5 +393,16 @@ body {
     .test-left {
         font-size: 0.58rem !important;
         letter-spacing: -0.2px !important;
+    }
+    .test-right {
+        margin-left: 20px !important;          
+        display: inline-flex !important; /* Keeps it perfectly centered on mobile line breaks */
+        gap: 4px !important;             /* Squeezes spacing slightly for tiny windows */
+    }
+
+    /* Microscopic scaling for the badge image on mobile screens */
+    .passed-badge {
+        width: 11px !important;  /* Sized down flawlessly to match your 0.58rem text */
+        height: 11px !important;
     }
 }
