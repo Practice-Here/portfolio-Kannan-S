@@ -640,8 +640,13 @@ section .title::after {
         overflow: hidden;
     }
     .cards li .inner-content {
-        width: 280px; 
+        width: 310px; 
         top: 70px;
+    }
+    .cards li:not(:has(input:checked)) label {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease;
     }
 }
 
@@ -661,14 +666,16 @@ section .title::after {
         overflow: hidden;
     }
     .cards li .inner-content {
-        width: 200px; /* Keeps text layout crisp inside narrow views */
-    }
-    .cards li .inner-content {
-        width: 250px; /* Maximizes text spread horizontally */
+        width: 310px; 
     }
     .cards li .inner-content h2 {
         font-size: 1.8rem;
         margin-bottom: 5px;
+    }
+    .cards li:not(:has(input:checked)) label {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease;
     }
 }
 
