@@ -583,7 +583,7 @@ section .title::after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 380px;
 }
 
 .cards li .inner-content h2 {
