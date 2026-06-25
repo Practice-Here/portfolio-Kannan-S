@@ -909,6 +909,10 @@ footer span a:hover {
         flex: 100%;
         padding-left: 0;
     }
+    .about .about-content .right .text span{
+        white-space: nowrap !important;
+        display: inline-block;
+    }
 
     /* Skills & Contact section stacking */
     .skills .skills-content {
@@ -965,6 +969,10 @@ footer span a:hover {
     .home .home-content a {
         font-size: 20px;
     }
+    .about .about-content .right .text span{
+        white-space: nowrap !important;
+        display: inline-block;
+    }
 
     .skills-right {
         align-items: center;
@@ -1010,6 +1018,11 @@ footer span a:hover {
     .about .about-content .right .text,
     .skills .skills-content .left .text {
         font-size: 19px;
+    }
+
+    .about .about-content .right .text span{
+        white-space: nowrap !important;
+        display: inline-block;
     }
     .skills .skills-content .left p {
         text-align: justify !important;
