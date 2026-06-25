@@ -638,6 +638,12 @@ section .title::after {
     .container-wrapper {
         height: 280px; 
     }
+    height: 380px; /* INCREASED: Gives text room to expand down on small screens */
+        overflow: visible; /* ALLOWED: Prevents text from being clipped */
+    }
+    .cards li .inner-content {
+        width: 300px; /* Slightly narrower to fit smaller screens elegantly */
+    }
 }
 
 @media (max-width: 450px) {
@@ -651,8 +657,15 @@ section .title::after {
         transform: scale(0.55);
         transform-origin: top center;
     }
-    .container-wrapper {
-        height: 220px;
+   .container-wrapper {
+        height: 360px; /* INCREASED: Ensures long multi-line paragraphs show completely */
+        overflow: visible;
+    }
+    .cards li .inner-content {
+        width: 260px; /* Keeps text comfortably within screen bounds */
+    }
+    .cards li .inner-content h2 {
+        font-size: 1.8rem; /* Scales heading down slightly so text has more room */
     }
 }
 
