@@ -346,9 +346,15 @@ body {
         width: calc(100% - 24px) !important;
     }
 
-    .ide-code-workspace, 
-    .ide-embedded-terminal .term-scroller {
-        font-size: 0.72rem !important; 
+    .ide-code-workspace {
+        font-size: 0.72rem !important;
+    }
+
+    .ide-embedded-terminal, 
+    .term-scroller {
+        font-size: 0.72rem !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
     }
 
     .tab-pill {
@@ -373,7 +379,12 @@ body {
         font-size: 0.7rem !important;
         margin-bottom: 12px !important;
     }
+    .term-line, 
+    .terminal-line, 
     .terminal-running {
+        white-space: pre-wrap !important;
+        word-break: break-word !important;
+        overflow-wrap: break-word !important;
         font-size: 0.65rem !important;
         line-height: 1.4 !important;
      }
