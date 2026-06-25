@@ -106,7 +106,7 @@ $(document).ready(function () {
  $(document).ready(function () {
     const radios = document.querySelectorAll('input[name="gallery-item"]');
     if (radios.length > 0) {
-        let currentIndex = 2; // Starts at item-2 (2022-2023)
+        let currentIndex = 0;
         let autoPlayInterval;
 
         function startAutoPlay() {
