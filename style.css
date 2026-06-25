@@ -920,12 +920,21 @@ footer span a:hover {
         margin-bottom: 35px;
     }
 
+    .skills .skills-content .left .text {
+        text-align: justify;
+        text-justify: inter-word;
+        text-align-last: left;
+        word-break: keep-all;        
+        letter-spacing: -0.4px;
+        word-spacing: -0.5px;
+    }
+
     .skills .skills-content .left p {
         text-align: justify;
         text-justify: inter-word;
         word-break: keep-all;
         letter-spacing: -0.2px;
-        word-spacing: -0.5px;
+        word-spacing: -0.7px;
     }
 
     .skills-right {
@@ -968,6 +977,14 @@ footer span a:hover {
         text-justify: inter-word;
         word-break: keep-all;
         letter-spacing: -0.2px;
+        word-spacing: -0.7px;
+    }
+    .skills .skills-content .left .text {
+        text-align: justify;
+        text-justify: inter-word;
+        text-align-last: left;
+        word-break: keep-all;        
+        letter-spacing: -0.4px;
         word-spacing: -0.5px;
     }
     .icon-buttons {
@@ -1003,6 +1020,14 @@ footer span a:hover {
         text-justify: inter-word;
         word-break: keep-all;
         letter-spacing: -0.2px;
+        word-spacing: -0.7px;
+    }
+    .skills .skills-content .left .text {
+        text-align: justify;
+        text-justify: inter-word;
+        text-align-last: left;
+        word-break: keep-all;        
+        letter-spacing: -0.4px;
         word-spacing: -0.5px;
     }
     section .title::before {
