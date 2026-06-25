@@ -642,7 +642,6 @@ section .title::after {
     .cards li .inner-content {
         width: 280px; 
         top: 70px;
-        overflow: visible !important;
     }
 }
 
