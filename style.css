@@ -634,15 +634,14 @@ section .title::after {
     .cards-container {
         transform: scale(0.7);
         transform-origin: top center;
-        overflow: hidden;
     }
     .container-wrapper {
-        height: 360px; 
-        overflow: visible;
+        height: 380px; 
+        overflow: hidden;
     }
     .cards li .inner-content {
-        width: 320px; 
-        top: 90px;
+        width: 380px; 
+        top: 70px;
         overflow: visible !important;
     }
 }
@@ -652,25 +651,28 @@ section .title::after {
         width: 210px;
     }
     .journey .title::after {
-        font-size: 14px; /* Ensure it fits perfectly on very small screens */
+        font-size: 14px;
     }
     .cards-container {
         transform: scale(0.55);
         transform-origin: top center;
-        overflow: hidden;
     }
    .container-wrapper {
         height: 320px;
-        overflow: visible;
+        overflow: hidden;
     }
     .cards li .inner-content {
         width: 290px; /* Keeps text layout crisp inside narrow views */
         top: 85px;
         overflow: visible !important;
     }
+    .cards li .inner-content {
+        width: 360px; /* Maximizes text spread horizontally */
+        top: 65px; /* Centers text box inside the safe viewable window */
+    }
     .cards li .inner-content h2 {
         font-size: 1.8rem;
-        margin-bottom: 8px;
+        margin-bottom: 5px;
     }
 }
 
