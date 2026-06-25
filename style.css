@@ -909,9 +909,14 @@ footer span a:hover {
         flex: 100%;
         padding-left: 0;
     }
-    .about .about-content .right .text span{
+    .about .about-content .right .text {
         white-space: nowrap !important;
-        display: inline-block;
+        display: block !important;
+    }
+
+    .about .about-content .right .text .typing-2{
+        white-space: nowrap !important;
+        display: inline-block !important;
     }
 
     /* Skills & Contact section stacking */
@@ -969,9 +974,14 @@ footer span a:hover {
     .home .home-content a {
         font-size: 20px;
     }
-    .about .about-content .right .text span{
+    .about .about-content .right .text {
         white-space: nowrap !important;
-        display: inline-block;
+        display: block !important;
+    }
+
+    .about .about-content .right .text .typing-2{
+        white-space: nowrap !important;
+        display: inline-block !important;
     }
 
     .skills-right {
@@ -1015,14 +1025,20 @@ footer span a:hover {
     .home .home-content .text-3 {
         font-size: 27px;
     }
-    .about .about-content .right .text,
+    
     .skills .skills-content .left .text {
         font-size: 19px;
     }
 
-    .about .about-content .right .text span{
+    .about .about-content .right .text {
+        font-size: 19px;
         white-space: nowrap !important;
-        display: inline-block;
+        display: block !important;
+    }
+
+    .about .about-content .right .text .typing-2{
+        white-space: nowrap !important;
+        display: inline-block !important;
     }
     .skills .skills-content .left p {
         text-align: justify !important;
