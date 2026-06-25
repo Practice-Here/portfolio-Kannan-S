@@ -922,8 +922,9 @@ footer span a:hover {
 
     .skills .skills-content .left .text {
         text-align: left !important;
-        word-spacing: normal;
-        letter-spacing: normal;
+        white-space: nowrap;
+        font-size: 5.2vw;
+        letter-spacing: -0.3px;
     }
 
     .skills .skills-content .left p {
@@ -978,8 +979,9 @@ footer span a:hover {
     }
     .skills .skills-content .left .text {
         text-align: left !important;
-        word-spacing: normal;
-        letter-spacing: normal;
+        white-space: nowrap;
+        font-size: 5.2vw;
+        letter-spacing: -0.3px;
     }
     .icon-buttons {
         display: flex;
@@ -1018,8 +1020,9 @@ footer span a:hover {
     }
     .skills .skills-content .left .text {
         text-align: left !important;
-        word-spacing: normal;
-        letter-spacing: normal;
+        white-space: nowrap;
+        font-size: 5.2vw;
+        letter-spacing: -0.3px;
     }
     section .title::before {
         width: 60%; /* Wider for small screens */
