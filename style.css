@@ -920,6 +920,10 @@ footer span a:hover {
         margin-bottom: 35px;
     }
 
+    .skills .skills-content .left p {
+        text-align: left;
+    }
+
     .skills-right {
         align-items: center;
         margin-left: 0;
@@ -955,6 +959,9 @@ footer span a:hover {
         align-items: center;
         margin-left: 0;
     }
+    .skills .skills-content .left p {
+        text-align: left;
+    }
     .icon-buttons {
         display: flex;
         flex-wrap: wrap;
@@ -982,6 +989,9 @@ footer span a:hover {
     .about .about-content .right .text,
     .skills .skills-content .left .text {
         font-size: 19px;
+    }
+    .skills .skills-content .left p {
+        text-align: left;
     }
     section .title::before {
         width: 60%; /* Wider for small screens */
