@@ -923,9 +923,9 @@ footer span a:hover {
     .skills .skills-content .left p {
         text-align: justify;
         text-justify: inter-word;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphens: auto;
+        word-break: keep-all;
+        letter-spacing: -0.2px;
+        word-spacing: -0.5px;
     }
 
     .skills-right {
@@ -966,9 +966,9 @@ footer span a:hover {
     .skills .skills-content .left p {
         text-align: justify;
         text-justify: inter-word;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphens: auto;
+        word-break: keep-all;
+        letter-spacing: -0.2px;
+        word-spacing: -0.5px;
     }
     .icon-buttons {
         display: flex;
@@ -1001,9 +1001,9 @@ footer span a:hover {
     .skills .skills-content .left p {
         text-align: justify;
         text-justify: inter-word;
-        -webkit-hyphens: auto;
-        -ms-hyphens: auto;
-        hyphens: auto;
+        word-break: keep-all;
+        letter-spacing: -0.2px;
+        word-spacing: -0.5px;
     }
     section .title::before {
         width: 60%; /* Wider for small screens */
