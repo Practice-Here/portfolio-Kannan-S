@@ -634,17 +634,16 @@ section .title::after {
     .cards-container {
         transform: scale(0.7);
         transform-origin: top center;
+        overflow: hidden;
     }
     .container-wrapper {
-        height: 400px; 
+        height: 360px; 
         overflow: visible;
-    }
-    .cards, .cards-container {
-        overflow: visible !important;
     }
     .cards li .inner-content {
         width: 320px; 
         top: 90px;
+        overflow: visible !important;
     }
 }
 
@@ -658,17 +657,16 @@ section .title::after {
     .cards-container {
         transform: scale(0.55);
         transform-origin: top center;
+        overflow: hidden;
     }
    .container-wrapper {
         height: 320px;
         overflow: visible;
     }
-    .cards, .cards-container {
-        overflow: visible !important;
-    }
     .cards li .inner-content {
         width: 290px; /* Keeps text layout crisp inside narrow views */
         top: 85px;
+        overflow: visible !important;
     }
     .cards li .inner-content h2 {
         font-size: 1.8rem;
