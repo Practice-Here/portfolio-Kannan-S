@@ -1057,13 +1057,17 @@ footer span a:hover {
 
     .about .about-content .right .text {
         font-size: 19px;
-        white-space: nowrap !important;
-        display: block !important;
+        display: flex;
+        flex-direction: column; /* Stacks "I'm a" above the typing element if space runs out */
+        align-items: center;    /* Keeps everything perfectly centered in mobile view */
+        text-align: center;
+        gap: 5px;
     }
 
     .about .about-content .right .text .typing-2{
-        white-space: nowrap !important;
-        display: inline-block !important;
+        display: block !important;
+        color: crimson;
+        word-break: break-word;
     }
     .skills .skills-content .left p {
         text-align: justify !important;
