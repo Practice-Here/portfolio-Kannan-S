@@ -1076,14 +1076,6 @@ footer span a:hover {
         letter-spacing: -0.3px;
     }
 
-    .about .about-content .right .text p{
-       text-align: justify !important;
-        text-justify: inter-word;
-        word-break: keep-all;
-        letter-spacing: -0.2px;
-        word-spacing: -0.5px;
-    }
-
     .about .about-content .right .text-about .typing-2{
         white-space: nowrap !important;
         display: inline-block !important;
