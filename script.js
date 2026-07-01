@@ -25,14 +25,14 @@ $(document).ready(function () {
 
     // Typing text animation script (merged for .typing & .typing-2)
     var typed = new Typed(".typing", {
-    strings: ["Developer!", "Tester!", "Starter!"],
+    strings: ["QA Engineer!", "Manual Tester!", "Automation Tester!"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
     });
 
     var typed = new Typed(".typing-2", {
-    strings: ["Developer!   ", "Tester!", "Starter!"],
+    strings: ["QA Engineer!", "Manual Tester!", "Automation Tester!"],
     typeSpeed: 300,
     backSpeed: 200,
     loop: true
