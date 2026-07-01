@@ -266,6 +266,19 @@ section .title::after {
 .about .about-content .right p {
     text-align: justify;
 }
+.about .about-content .right .text .name-highlight {
+    color: #11FFFC;
+    font-weight: 700;
+}
+.text-3-about {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px 0 15px 0;
+    color: black; /* Standard dark text for light background */
+}
+.text-3-about span {
+    color: crimson;
+}
 
 
 @keyframes colorize {
@@ -937,6 +950,17 @@ footer span a:hover {
     .about .about-content .right .text {
         white-space: nowrap !important;
         display: block !important;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text-3-about {
+        font-size: 24px;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap !important;
+        gap: 6px;
     }
 
     .about .about-content .right .text .typing-2{
@@ -1057,11 +1081,20 @@ footer span a:hover {
 
     .about .about-content .right .text {
         font-size: 19px;
+        text-align: center;
+    }
+    .text-3-about {
+        font-size: 5.2vw; /* Dynamically scales the font width down to match the screen size */
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
         white-space: nowrap !important;
-        display: block !important;
+        flex-wrap: nowrap !important;
+        width: 100%;
+        gap: 6px;
     }
 
-    .about .about-content .right .text .typing-2{
+    .about .about-content .right .text-about .typing-2{
         white-space: nowrap !important;
         display: inline-block !important;
     }
