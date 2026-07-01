@@ -1072,16 +1072,6 @@ footer span a:hover {
         font-size: 19px;
         text-align: center;
     }
-    .text-3-about {
-        font-size: 5.2vw; /* Dynamically scales the font width down to match the screen size */
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-        white-space: nowrap !important;
-        flex-wrap: nowrap !important;
-        width: 100%;
-        gap: 6px;
-    }
 
     .about .about-content .right .text-about .typing-2{
         white-space: nowrap !important;
