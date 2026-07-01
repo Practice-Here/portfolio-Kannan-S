@@ -1073,6 +1073,7 @@ footer span a:hover {
         text-align: center;
         white-space: nowrap !important;
         display: block !important;
+        letter-spacing: -0.3px;
     }
 
     .about .about-content .right .text p{
