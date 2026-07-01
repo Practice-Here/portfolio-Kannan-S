@@ -1071,6 +1071,8 @@ footer span a:hover {
     .about .about-content .right .text {
         font-size: 19px;
         text-align: center;
+        white-space: nowrap !important;
+        display: block !important;
     }
 
     .about .about-content .right .text-about .typing-2{
