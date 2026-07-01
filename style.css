@@ -1056,20 +1056,14 @@ footer span a:hover {
     }
 
     .about .about-content .right .text {
-        font-size: 5.2vw;
+        font-size: 19px;
         white-space: nowrap !important;
-        display: flex !important;
-        justify-content: center; /* Center balances the text in mobile view */
-        align-items: center;
-        flex-wrap: nowrap !important; /* Forces total horizontal layout */
-        width: 100%;
-        gap: 6px;
+        display: block !important;
     }
 
     .about .about-content .right .text .typing-2{
-        display: inline-block !important;
         white-space: nowrap !important;
-        color: crimson;
+        display: inline-block !important;
     }
     .skills .skills-content .left p {
         text-align: justify !important;
