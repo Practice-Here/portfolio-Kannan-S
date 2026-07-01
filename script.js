@@ -33,7 +33,7 @@ $(document).ready(function () {
 
     var typed = new Typed(".typing-2", {
     strings: ["QA Engineer!", "Manual Tester!", "Automation Tester!"],
-    typeSpeed: 300,
+    typeSpeed: 250,
     backSpeed: 200,
     loop: true
     });
