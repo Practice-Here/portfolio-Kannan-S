@@ -1073,7 +1073,6 @@ footer span a:hover {
         text-align: center;
         white-space: normal !important;
         display: block !important;
-        letter-spacing: -0.3px;
     }
     .about .about-content .right p {
         text-align: justify !important;
@@ -1084,9 +1083,10 @@ footer span a:hover {
         hyphens: none !important;
     }
 
-    .about .about-content .right .text-about .typing-2{
+    .about .about-content .right .text .typing-2{
         white-space: nowrap !important;
         display: inline-block !important;
+        font-size: 4.5vw;
     }
     .skills .skills-content .left p {
         text-align: justify !important;
