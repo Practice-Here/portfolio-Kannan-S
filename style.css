@@ -478,7 +478,6 @@ section .title::after {
     white-space: nowrap; /* Forces text to stay on one line, preventing mobile overlap! */
 }
 
-/* 2. Fix the missing left/right lines for the wider text */
 .journey .title::before {
     width: 260px; 
 }
@@ -1082,7 +1081,7 @@ footer span a:hover {
         word-break: normal;    
         hyphens: none !important;
     }
-
+    .about .about-content .right .text span,
     .about .about-content .right .text .typing-2{
         white-space: nowrap !important;
         display: inline-block !important;
