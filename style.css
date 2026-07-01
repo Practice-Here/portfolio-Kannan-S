@@ -1077,11 +1077,11 @@ footer span a:hover {
     }
     .about .about-content .right p {
         text-align: justify !important;
-        text-justify: inter-word; /* Distributes spaces evenly between words */
-        word-spacing: -1px;       /* Tightens the space gaps tightly on tiny screens */
-        letter-spacing: -0.2px;   /* Reduces font tracking slightly to fit words naturally */
-        word-break: normal;       /* Ensures regular word boundaries */
-        hyphens: none !important; /* Prevents ugly dashes breaking your words */
+        text-justify: inter-word; 
+        word-spacing: -1px;     
+        letter-spacing: -0.2px; 
+        word-break: normal;    
+        hyphens: none !important;
     }
 
     .about .about-content .right .text-about .typing-2{
@@ -1091,8 +1091,8 @@ footer span a:hover {
     .skills .skills-content .left p {
         text-align: justify !important;
         text-justify: inter-word;
-        word-break: keep-all;
-        letter-spacing: -0.1px;
+        word-break: normal;
+        letter-spacing: -0.2px;
         word-spacing: -1px;
     }
     .skills .skills-content .left .text {
