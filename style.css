@@ -1068,10 +1068,11 @@ footer span a:hover {
     }
 
     .about .about-content .right .text {
-        font-size: 19px;
+        font-size: 17px;
         text-align: center;
-        white-space: normal !important;
+        white-space: nowrap !important;
         display: block !important;
+        overflow: hidden;
     }
     .about .about-content .right p {
         text-align: justify !important;
@@ -1082,10 +1083,10 @@ footer span a:hover {
         hyphens: none !important;
     }
     .about .about-content .right .text span,
-    .about .about-content .right .text .typing-2{
+    .about .about-content .right .text .typing-2, .typed-cursor{
         white-space: nowrap !important;
-        display: inline-block !important;
-        font-size: 4.5vw;
+        display: inline !important;
+        font-size: 4.0vw;
     }
     .skills .skills-content .left p {
         text-align: justify !important;
