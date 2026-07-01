@@ -1056,18 +1056,20 @@ footer span a:hover {
     }
 
     .about .about-content .right .text {
-        font-size: 19px;
-        display: flex;
-        flex-direction: column; /* Stacks "I'm a" above the typing element if space runs out */
-        align-items: center;    /* Keeps everything perfectly centered in mobile view */
-        text-align: center;
-        gap: 5px;
+        font-size: 5.2vw;
+        white-space: nowrap !important;
+        display: flex !important;
+        justify-content: center; /* Center balances the text in mobile view */
+        align-items: center;
+        flex-wrap: nowrap !important; /* Forces total horizontal layout */
+        width: 100%;
+        gap: 6px;
     }
 
     .about .about-content .right .text .typing-2{
-        display: block !important;
+        display: inline-block !important;
+        white-space: nowrap !important;
         color: crimson;
-        word-break: break-word;
     }
     .skills .skills-content .left p {
         text-align: justify !important;
