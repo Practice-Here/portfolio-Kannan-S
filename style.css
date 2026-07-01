@@ -950,17 +950,6 @@ footer span a:hover {
     .about .about-content .right .text {
         white-space: nowrap !important;
         display: block !important;
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .text-3-about {
-        font-size: 24px;
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-        white-space: nowrap !important;
-        gap: 6px;
     }
 
     .about .about-content .right .text .typing-2{
