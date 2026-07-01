@@ -1082,11 +1082,16 @@ footer span a:hover {
         word-break: normal;    
         hyphens: none !important;
     }
-    .about .about-content .right .text span,
-    .about .about-content .right .text .typing-2, .typed-cursor{
+    .text-3-about{
+        font-size: 12px;
+        display: inline !important;
+        white-space: nowrap !important;
+    }
+    .about .about-content .right .text .typing-2{
         white-space: nowrap !important;
         display: inline !important;
         font-size: 4.0vw;
+        word-break: keep-all !important;
     }
     .skills .skills-content .left p {
         text-align: justify !important;
