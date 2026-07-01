@@ -1060,7 +1060,15 @@ footer span a:hover {
         font-size: 50px;
     }
     .home .home-content .text-3 {
-        font-size: 27px;
+        font-size: 21px !important;
+        white-space: normal !important;
+        display: block !important;
+    }
+    .home .home-content .typing{
+        white-space: nowrap !important;
+        display: inline !important;
+        font-size: 4.0vw;
+        word-break: keep-all !important;
     }
     
     .skills .skills-content .left .text {
