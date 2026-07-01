@@ -136,7 +136,13 @@ body {
   animation: lifecycleMiddleWindow var(--dur-p2) step-end forwards;
   animation-delay: var(--dur-p1);
 }
-.ide-wrapper { display: flex; flex-grow: 1; height: calc(100% - 41px); overflow: hidden; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; }
+.ide-wrapper { display: flex; flex-direction: column; flex-grow: 1; height: calc(100% - 41px); overflow: hidden; border-bottom-left-radius: 11px; border-bottom-right-radius: 11px; }
+.ide-top-layout {
+  display: flex;
+  flex-direction: row;
+  height: 197px; /* othaaaaaaaaaaaaaaaaaaaaaaaa */
+  width: 100%;
+}
 .ide-sidebar-nav {
   width: 160px; background-color: var(--bg-sidebar-ide); border-right: 1px solid var(--ui-border-line);
   padding: 16px 8px; font-size: 0.8rem; color: var(--text-muted-color); user-select: none;
@@ -166,7 +172,7 @@ body {
 
 .ide-embedded-terminal {
   background-color: var(--bg-term-embedded); border-top: 1px solid var(--ui-border-line);
-  height: calc(100% - 197px); display: flex; flex-direction: column;
+  height: calc(100% - 197px); display: flex; flex-direction: column; flex-grow: 1; /* othaaaaaaaaaaaaaa */
 }
 .term-nav {
   padding: 6px 16px; font-size: 0.7rem; color: var(--text-primary-color);
